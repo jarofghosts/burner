@@ -6,10 +6,10 @@ body {
 	font-weight: 700;
 }
 ::selection {
-	background: #cc8e99;
+	background: #cccc9a;
 }
 ::-moz-selection {
-	background: #cc8e99;
+	background: #cccc9a;
 }
 span.form_label {
 	font-size: 40px;
@@ -165,4 +165,19 @@ div#form {
 form {
 	margin: 0 auto;
 	display: block;
+}
+div#toast {
+	display: none;
+	position: fixed;
+	bottom: 0px;
+	width: 600px;
+	height: 50px;
+	font-size: 35px;
+	padding-top:20px;
+	left: 50%;
+	margin-left: -300px;
+	background-color: #cc8e99;
+	text-align: center;
+	color: #333333;
+	box-shadow: 0px 0px 20px #cc2240;
 }

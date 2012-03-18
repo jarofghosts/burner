@@ -45,9 +45,27 @@ function showMessage( message_id ){
         }
     }
 }
-function submitForm(){
+
+function toastMessage ( message_text ) {
+  document.getElementById('toast').style.display = 'block';
+  document.getElementById('toast').innerHTML = message_text;
+}
+
+function submitForm() {
+  document.getElementById('toast').style.display = 'none';
   var message = document.forms["main_form"]["message"].value;
   var exp_time = document.forms["main_form"]["exp_time"].value;
+
+    if ( message == null || message == "" )
+    {
+      toastMessage ("Please enter a message of some kind.");
+      return false;
+    }
+    if ( exp_time == null || exp_time == "" || isNaN(exp_time) )
+    {
+      toastMessage ("Please enter a valid expiration time.");
+      return false;
+    }
   var select_box = document.forms["main_form"]["exp_value"];
   var exp_value = select_box.options[select_box.selectedIndex].value;
   var sendmessage = encodeURIComponent(message);
