@@ -17,12 +17,13 @@
 				<textarea name="message" id="message" placeholder="Type your message..."></textarea><br/>
 				<span class="form_label">Expire In...</span><br/>
 				<input type="text" name="exp_time" placeholder="#" class="time_box"/>
-				<select name="exp_value" class="value_box">
+				<div class="select-box"><select name="exp_value" class="value_box">
 					<option selected value="MINUTE">Minutes</option>
 					<option selected value="HOUR">Hours</option>
 					<option value="DAY">Days</option>
 					<option value="MONTH">Months</option>
-				</select><button type="button" onclick="submitForm()" class="form_button">Submit</button>
+				</select></div>
+				<button type="button" onclick="submitForm()" class="form_button">Submit</button>
 			</form>
 		</div>
 	<?php

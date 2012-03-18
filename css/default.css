@@ -86,8 +86,10 @@ button.form_button {
 	font-family: 'Magra', sans-serif;
 	border: 1px solid #ccc;
 	height: 40px;
+	border-radius: 5px;
+	box-shadow: 0px 3px 0px #ccc;
 	color: #ccc;
-	border-bottom: 7px solid #ccc;
+	border: 1px solid #ccc;
 	float: left;
 	
 }
@@ -97,13 +99,21 @@ select.value_box {
 	position: relative;
 	background-color: #333333;
 	display: block;
+	outline: 0px;
+	border: 0px;
 	color: #ccc;
+	text-align: center;
+	height: 38px;
+
+}
+div.select-box {
+	border-radius: 5px;
 	border: 1px solid #ccc;
-	border-bottom: 7px solid #ccc;
+	height: 38px;
+	position: relative;
 	float: left;
 	margin-right: 10px;
-	height: 40px;
-
+	box-shadow: 0px 3px 0px #ccc;	
 }
 div#url-box {
 
@@ -132,8 +142,11 @@ input {
 	width: 30px;
 	background-color: #333333;
 	color: #ccc;
+	text-align: center;
 	border: 1px solid #ccc;
-	border-bottom: 7px solid #ccc;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	box-shadow: 0px 3px 0px #ccc;
 	height: 40px;
 	outline: 0;
 	margin-right: 10px;
