@@ -9,7 +9,6 @@
 	</head>
 	<body>
 		<header><img src="images/header.png" alt="Burner"/></header>
-		<div class="left-bar"></div><div class="right-bar"></div>
 		<div id="display" class="message"></div>
 		<div id="url-box"><input id="url-form" type="text" class="url-box" onclick="this.select(); var r= this.createTextRange(); r.execCommand('copy');"/></div>
 		<div id="form">
@@ -42,4 +41,5 @@
 		?>
 		<div id="toast"></div>
 	</body>
+	<img src="images/burner-bg.png" class="bar-background" width="0" height="0"/>
 </html>

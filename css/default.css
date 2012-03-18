@@ -23,26 +23,6 @@ header {
 header img {
 	margin: 40px auto 40px auto;
 }
-div.left-bar {
-	background-image: url('/imf/images/left-bar.png');
-	background-repeat: repeat-y;
-	height: 100%;
-	position: fixed;
-	display: block;
-	left: 0;
-	top: 0;
-	width: 152px;
-}
-div.right-bar {
-	background-image: url('/imf/images/right-bar.png');
-	background-repeat: repeat-y;
-	height: 100%;
-	position: fixed;
-	display: block;
-	right: 0;
-	top: 0;
-	width: 152px;
-}
 div.message {
 
 	display: none;
@@ -193,4 +173,12 @@ div#toast {
 	text-align: center;
 	color: #333333;
 	box-shadow: 0px 0px 20px #cc2240;
+}
+img.bar-background {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
 }
