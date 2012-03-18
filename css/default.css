@@ -1,0 +1,168 @@
+body {
+	background-color: #333333;
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+	font-family: 'Magra', sans-serif;
+	font-weight: 700;
+}
+::selection {
+	background: #cc8e99;
+}
+::-moz-selection {
+	background: #cc8e99;
+}
+span.form_label {
+	font-size: 40px;
+	color: #ccc;
+	text-shadow: 5px 5px 30px #000;
+}
+header {
+	width: 100%;
+	text-align: center;
+}
+header img {
+	margin: 40px auto 40px auto;
+}
+div.left-bar {
+	background-image: url('/imf/images/left-bar.png');
+	background-repeat: repeat-y;
+	height: 100%;
+	position: fixed;
+	display: block;
+	left: 0;
+	top: 0;
+	width: 152px;
+}
+div.right-bar {
+	background-image: url('/imf/images/right-bar.png');
+	background-repeat: repeat-y;
+	height: 100%;
+	position: fixed;
+	display: block;
+	right: 0;
+	top: 0;
+	width: 152px;
+}
+div.message {
+
+	display: none;
+	overflow: auto;
+	word-wrap: break-word;
+	position: relative;
+	margin: 0 auto;
+	width: 500px;
+	padding: 10px;
+	height: 300px;
+	background-color: #333333;
+	font-family: 'Magra', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	background-image: url('/imf/images/white-bg.png');
+	box-shadow: 5px 5px 30px #000;
+
+}
+textarea#message {
+
+	display: block;
+	position: relative;
+	height: 300px;
+	padding: 10px;
+	background-color: #333333;
+	width: 500px;
+	outline: 0px;
+	font-family: 'Magra', sans-serif;
+	font-weight: 700;
+	box-shadow: 5px 5px 30px #000;
+	font-size: 20px;
+	background-image: url('/imf/images/white-bg.png');
+
+}
+button.form_button {
+
+	display: block;
+	position: relative;
+	background-color: #333333;
+	width: 65px;
+	font-family: 'Magra', sans-serif;
+	border: 1px solid #ccc;
+	height: 40px;
+	color: #ccc;
+	border-bottom: 7px solid #ccc;
+	float: left;
+	
+}
+select.value_box {
+
+	font-family: 'Magra', sans-serif;
+	position: relative;
+	background-color: #333333;
+	display: block;
+	color: #ccc;
+	border: 1px solid #ccc;
+	border-bottom: 7px solid #ccc;
+	float: left;
+	margin-right: 10px;
+	height: 40px;
+
+}
+div#url-box {
+
+	display: none;
+	width: 475px;
+	margin: 25px auto 15 auto;
+
+}
+
+input.url-box {
+
+	width: 475px;
+	display: block;
+	font-family: 'Magra', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	margin: 0px 0px 0px 0px;
+
+}
+
+input {
+
+	font-family: 'Magra', sans-serif;
+	position: relative;
+	display: block;
+	width: 30px;
+	background-color: #333333;
+	color: #ccc;
+	border: 1px solid #ccc;
+	border-bottom: 7px solid #ccc;
+	height: 40px;
+	outline: 0;
+	margin-right: 10px;
+	margin-left: 155px;
+	float: left;
+
+}
+
+input:focus {
+	margin-top: 1px;
+	border-bottom: 4px solid #ccc;
+}
+select:focus {
+	margin-top:1px;
+	border-bottom: 4px solid #ccc;	
+}
+button:active {
+	margin-top:1px;
+	border-bottom: 4px solid #ccc;
+}
+div#form {
+
+	display: none;
+	position: relative;
+	width: 500px;
+	margin: 0 auto;
+
+}
+form {
+	margin: 0 auto;
+	display: block;
+}
