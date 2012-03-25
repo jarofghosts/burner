@@ -13,7 +13,7 @@
 		<div id="url-box"><input id="url-form" type="text" class="url-box" onclick="this.select(); var r= this.createTextRange(); r.execCommand('copy');"/></div>
 		<div id="form">
 			<form name="main_form">
-				<textarea name="message" id="message" placeholder="Type your message..."></textarea><br/>
+				<textarea name="message" id="message" placeholder="Type your message..." rows="2" cols="57" onkeyup="sz(this);"></textarea><br/>
 				<span class="form_label">Expire In...</span><br/>
 				<input type="text" name="exp_time" placeholder="#" class="time_box"/>
 				<div class="select-box"><select name="exp_value" class="value_box">

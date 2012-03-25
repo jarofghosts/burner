@@ -51,6 +51,15 @@ function toastMessage ( message_text ) {
   document.getElementById('toast').innerHTML = message_text;
 }
 
+function sz(t) {
+  a = t.value.split('\n');
+  b=1;
+  for (x=0;x < a.length; x++) { if (a[x].length >= t.cols) b+= Math.floor(a[x].length/t.cols);
+  }
+  b += a.length;
+  t.rows = b;
+}
+
 function submitForm() {
   document.getElementById('toast').style.display = 'none';
   var message = document.forms["main_form"]["message"].value;
